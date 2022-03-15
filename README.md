@@ -2,5 +2,5 @@
 
 arborescence:
   - hosts :       /etc/ansible/
-  - ansible.cfg   /etc/ansible/
-  - playbook.yml  /home/user/
+  - ansible.cfg : /etc/ansible/
+  - playbook.yml :/home/user/
