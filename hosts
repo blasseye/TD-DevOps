@@ -1,0 +1,7 @@
+[docker]
+10.0.3.6
+
+[docker:vars]
+ansible_user=user
+ansible_password=123456
+ansible_become_password=123456
