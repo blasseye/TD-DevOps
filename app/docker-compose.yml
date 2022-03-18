@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+
+  nginx:
+    image: nginx:latest
+    container_name: webserver
+    ports:
+     - "80:80"
+    volumes:
+     - /home/user/server/conf.d:/etc/nginx/conf.d
+
+  nodejs1:
+    image: your_dockerhub_username/nodejs-image-demo1
+    container_name: nodejs-1  
+
+  nodejs2:
+    image: your_dockerhub_username/nodejs-image-demo2
+    container_name: nodejs-2
